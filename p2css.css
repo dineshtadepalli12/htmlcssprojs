@@ -1,0 +1,115 @@
+.body{
+  position:relative;
+  width: 100%;
+  background-color: rgba(58, 58, 158, 0.8);
+  background-position: center;
+  margin-top: 60px;
+  margin-left: 70px;
+  display:block;
+}
+.maincontainer{
+  max-width: 720px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+  font-family: 'Times New Roman', Times, serif;
+  color: #e6e5e8;
+  font-size: 18px;
+  display: block;
+  width:600px;
+  position: relative;
+  margin-left: 265px;
+}
+  
+.h1sub{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: -12px;
+}
+
+.psub{
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  justify-content:end;
+}
+
+.form{
+  display: block;
+  padding: 2.5em;
+  background-color: #1b1b32;
+  box-sizing: border-box;
+  border-radius:0.3cm ;
+  margin-top: 40px;
+  width: 700px;
+  align-items: center;
+  margin-left: 250px;
+  color: antiquewhite;
+}
+.form-group{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: block;
+  box-sizing: border-box  ;
+  color: antiquewhite;
+  font-size: 19px;
+}
+
+#label{
+  display: flex;
+  color: #f3f3f3;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.form-control{
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border-radius: 0.1cm;
+  font-size: medium;
+  border-color: grey;
+}
+
+#dropdown{
+  display: flex;
+  font-size: 17px;
+  margin-bottom: 20px;
+
+}
+.droppara{
+  font-size:20px;
+  
+}
+
+#recommend{
+  display: block;
+  
+}
+
+.checkboxlabel{
+  display:flex;
+}
+
+.radiolabel{
+  display:flex;
+  margin: ;
+}
+
+.input-textarea{
+  min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+.submit-button{
+  display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #37af65;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;  
+    font-size: 16px;
+}
